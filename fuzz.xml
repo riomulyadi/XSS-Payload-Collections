@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- XML XSS fuzzing corpus: benign markers for locating reflection/sinks -->
+<feed>
+  <title>XSS_TEST_001</title>
+  <subtitle>XSS_TEST_002</subtitle>
+  <author>XSS_TEST_003</author>
+  <description><![CDATA[XSS_TEST_004]]></description>
+  <summary><![CDATA[XSS_TEST_005]]></summary>
+
+  <item id="XSS_TEST_006">
+    <name>XSS_TEST_007</name>
+    <title>XSS_TEST_008</title>
+    <description>XSS_TEST_009</description>
+    <content><![CDATA[XSS_TEST_010]]></content>
+    <link>https://example.invalid/?q=XSS_TEST_011</link>
+    <guid>XSS_TEST_012</guid>
+    <category>XSS_TEST_013</category>
+    <comments>XSS_TEST_014</comments>
+  </item>
+
+  <metadata>
+    <value key="XSS_TEST_015">XSS_TEST_016</value>
+    <property name="XSS_TEST_017" value="XSS_TEST_018"/>
+  </metadata>
+
+  <!-- XSS_TEST_019 -->
+  <raw><![CDATA[
+    XSS_TEST_020
+    <XSS_TEST_021>XSS_TEST_022</XSS_TEST_021>
+  ]]></raw>
+</feed>
