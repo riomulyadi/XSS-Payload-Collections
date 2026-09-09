@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:cc="http://web.resource.org/cc/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:media="http://search.yahoo.com/mrss/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel>
+    <atom:link href="http://dataskeptic.libsyn.com/rss" rel="self" type="application/rss+xml"/>
+    <title>Data Skeptic</title>
+    <pubDate>Fri, 15 Jan 2016 15:00:00 +0000</pubDate>
+    <lastBuildDate>Fri, 15 Jan 2016 15:08:58 +0000</lastBuildDate>
+    <generator>Libsyn WebEngine 2.0</generator>
+    <link>javascript:alert(1234)</link>
+    <language>en</language>
+    <copyright><![CDATA[Creative Commons Attribution License 3.0]]></copyright>
+    <docs>javascript:alert(1234)</docs>
+    <managingEditor>kylepolich@gmail.com (kylepolich@gmail.com)</managingEditor>
+    <itunes:summary><![CDATA[The Data Skeptic Podcast features interviews and discussion of topics related to data science, statistics, machine learning, artificial intelligence and the like, all from the perspective of applying critical thinking and the scientific method to evaluate the veracity of claims and efficacy of approaches.]]></itunes:summary>
+    <image>
+      <url>http://static.libsyn.com/p/assets/2/9/3/8/2938570bb173ccbc/DataSkeptic-Podcast-1A.jpg</url>
+      <title>Data Skeptic</title>
+      <link><![CDATA[javascript:alert(1234)]]></link>
+    </image>
+    <itunes:author>Kyle Polich</itunes:author>
+    <itunes:keywords>datamining,datascience,machinelearning,science,skepticism,statistics</itunes:keywords>
+  <itunes:category text="Science &amp; Medicine"/>
+  <itunes:category text="Technology"/>
+  <itunes:category text="Education">
+    <itunes:category text="Higher Education"/>
+  </itunes:category>
+    <itunes:image href="http://static.libsyn.com/p/assets/2/9/3/8/2938570bb173ccbc/DataSkeptic-Podcast-1A.jpg" />
+    <itunes:explicit>clean</itunes:explicit>
+    <itunes:owner>
+      <itunes:name><![CDATA[Kyle Polich]]></itunes:name>
+      <itunes:email>kylepolich@gmail.com</itunes:email>
+    </itunes:owner>
+    <description><![CDATA[Data Skeptic alternates between short mini episodes with the host explaining concepts from data science to his non-data scientist wife, and longer interviews featuring practitioners and experts on interesting topics related to data, all through the eye of scientific skepticism.]]></description>
+    <itunes:subtitle><![CDATA[Applying critical thinking to Data Science]]></itunes:subtitle>
+      <item>
+      <title><![CDATA[<]]>script<![CDATA[>]]>alert('xss')<![CDATA[<]]>/script<![CDATA[>]]></title>
+      <pubDate>Fri, 15 Jan 2016 15:00:00 +0000</pubDate>
+      <guid isPermaLink="false"><![CDATA[18102dbc685d36dea2556055eea4ed76]]></guid>
+      <link><![CDATA[javascript:alert(document.domain)]]></link>
+      <itunes:image href="http://static.libsyn.com/p/assets/2/9/3/8/2938570bb173ccbc/DataSkeptic-Podcast-1A.jpg" />
+      <description><![CDATA[<script>alert(2)</script>]]></description>
+      <enclosure length="45125402" type="audio/mpeg" url="http://traffic.libsyn.com/dataskeptic/pseudo-profound-episode.mp3" />
+      <itunes:duration>37:37</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:keywords />
+      <itunes:subtitle><![CDATA[A recent paper in the journal of Judgment and Decision Making titled On the reception and detection of pseudo-profound bullshit explores empirical questions around a reader's ability to detect statements which may sound profound but are actually a...]]></itunes:subtitle>
+          </item>
+  </channel>
+</rss>
