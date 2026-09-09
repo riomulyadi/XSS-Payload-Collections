@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Sample RSS Feed</title>
+    <link>https://www.example.com</link>
+    <description>Example RSS feed with a summary</description>
+    <language>en-us</language>
+    <pubDate>Sat, 23 Nov 2024 00:00:00 GMT</pubDate>
+    <item>
+      <title> Blog Post</title>
+      <link>https://www.example.com/first-blog-post</link>
+      <guid>https://www.example.com/first-blog-post</guid>
+      <pubDate>Sat, 23 Nov 2024 12:00:00 GMT</pubDate>
+      <summary>&lt;script&gt;alert(document.cookie)&lt;/script&gt;This is a brief summary of the blog post.</summary>
+    </item>
+
+  </channel>
+</rss>
